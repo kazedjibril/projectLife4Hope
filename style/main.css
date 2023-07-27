@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 61, 43);
+}
+body{
+    width: 100%;
+}
+#landing{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.02), rgba(66, 235, 184, 0.45)),
+    url("../img/happyKid.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-right: 10px;
+}
+nav{
+    padding-top: 20px;
+    font-size:12px;
+    text-align: right;
+    position: sticky;
+    top: 0;
+}
+ul li{
+    display: inline;
+    padding: 0 10px 0 10px;
+    -webkit-transition: background 1s;
+    transition: background 1s;
+
+}
+.link:hover{
+    border-bottom: 3px solid #31CEAC;
+    background-color: #044e3e;
+    color: #dfe7e6;
+}
+#logo{
+    float: left;
+    margin-left: 0px;
+}
+
+#bigword{
+    width: 40%;
+    float: right;
+    margin-top: 30vh;
+}
+#landingWord{
+    font-size: 2em;
+}
+#slog{
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+#gstarted{
+    font-size: 6px;
+    background-color: #31CEAC;
+    width: 60px;
+    height: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 20px;
+    transition: transform 0.2s ease 0s;
+}
+#gstarted a{
+    text-decoration: none;
+    font-weight:1000;
+    color: #fdffff;
+    vertical-align: baseline;
+}
+#gstarted:hover{
+    font-size: 6px;
+    background-color: #31CEAC;
+    width: 60px;
+    height: 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20vh;
+    border-radius: 20px;
+    transform: translateY(-5px);
+}
